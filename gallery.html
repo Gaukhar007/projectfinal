@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus</title>
+</head>
+<style>
+    /*Service Section*/
+.service-swipe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: url("photo12.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+    height: 300vh;
+}
+.service-swipe .s-card img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.service-swipe a {
+	padding: 0;
+	margin: 40px 10px;
+}
+.service-swipe .s-card {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	width: 400px;
+	height: 350px;
+	box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
+					0 0 50px rgba(0,0,0,0.8);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: .5s;
+}
+.service-swipe .s-card p {
+	color: #f2f2f2;
+	font-size: 1.2em;
+	font-family: 'Open Sans',sans-serif;
+}
+.service-swipe .s-card:hover {
+	box-shadow: 0 0 50px rgba(255,255,255,0.8);
+	transform: translateY(-10px);
+}
+/* FOOTER */
+footer {
+    background-color: #255dce;
+    color: #ffffff;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+  
+  .footer-section {
+    max-width: 200px;
+  }
+  
+  .footer-logo {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icon img {
+    width: 24px;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+  }
+  
+  .footer-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+
+</style>
+<body>
+    <!-- SERVICES -->
+
+<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Campus</p>
+		</div>
+		<a href="#"><div class="s-card"><img src="photo1.jpg">    </div></a> 
+		<a href="#"><div class="s-card"><img src="photo2.jpg"></div></a>
+		<a href="#"><div class="s-card"><img src="photo3.jpg"></div></a>
+		<a href="#"><div class="s-card"><img src="photo4.jpg"></div></a>
+		<a href="#"><div class="s-card"><img src="photo5.jpg"></div></a>
+		<a href="#"><div class="s-card"><img src="photo7.jpg"></div></a>
+		<a href=""><div class="s-card"><img src="photo8.jpg"></div></a>
+		<a href="#"><div class="s-card"><img src="photo10.jpg"></div></a> 
+		<a href="#"><div class="s-card"><img src="photo11.jpg"></div></a>
+		<a href="#"><div class="s-card"><img src="photo12.jpg"></div></a>
+		<a href="#"><div class="s-card"><img src="photo13.jpg"></div></a>
+	</div> 
+
+	<footer>
+		<div class="footer-container">
+		  <div class="footer-section logo">
+			<img src="infooter.webp"class="footer-logo">
+		  </div>
+		  <div class="footer-section">
+			<h3>For People</h3>
+			<ul>
+			  <li><a href="requestinfo.html">Request Info</a></li>
+			  <li><a href="apply.html">Apply</a></li>
+			  <li><a href="index.html">Main Page</a></li>
+			</ul>
+		  </div>
+		</div>
+		<div class="footer-bottom">
+		  <p>&copy; 2000–2024 EDUroute s.r.o.</p>
+		  <p><a href="#">We use cookies, see terms of use</a> | <a href="#">Privacy Policy</a> | <a href="#">Cookie Settings</a></p>
+		  <p><a href="#">VysokeSkoly.cz</a> | <a href="#">VysokeSkoly.sk</a> | <a href="#">Legentas.com</a></p>
+		</div>
+	  </footer>
+</body>
+</html>

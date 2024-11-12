@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prospective Student | Request for Information</title>
+    <style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    background: #3375f6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    display: inline;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-link, .footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+.request-info {
+    max-width: 800px;
+    height: 880px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #3375f6;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    color: #3375f6;
+    margin-top: 20px;
+    border-bottom: 2px solid #3375f6;
+    padding-bottom: 5px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 8px rgba(0, 51, 204, 0.3);
+    outline: none;
+}
+
+.submit-button {
+    background-color: #3375f6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #00ccff;
+    transform: scale(1.05);
+}
+
+.submit-button:active {
+    transform: scale(1);
+}
+
+/* FOOTER */
+footer {
+    background-color: #255dce;
+    color: #ffffff;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+  
+  .footer-section {
+    max-width: 200px;
+  }
+  
+  .footer-logo {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icon img {
+    width: 24px;
+    margin-top: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+  }
+  
+  .footer-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>
+                PROSPECTIVE STUDENT | REQUEST FOR INFORMATION
+            </h1>
+        </div>
+      
+    </header>
+
+    <main>
+        <section class="request-info">
+            <h2>PROSPECTIVE STUDENT | REQUEST FOR INFORMATION</h2>
+            <p>Thank you for your interest in JIHC. We are excited to share our story with you and look forward to working with you in the coming days. Please complete the following form to receive information regarding the admission process, our academic programs, financial assistance, and life at JIHC.</p>
+        
+            <form class="info-form">
+                <h3 class="section-title">Personal Information</h3>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="middle-name">Middle Name:</label>
+                <input type="text" id="middle-name" name="middle-name">
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+                
+                <h3 class="section-title">Contact Information</h3>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Mobile Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <h3 class="section-title">Academic Plan</h3>
+                <label for="program">Which student type are you interested in?</label>
+                <select id="program" name="program" required>
+                    <option value="it">IT Management</option>
+                    <option value="business">Business</option>
+                    <option value="engineering">Engineering</option>
+                </select>
+
+                <label for="grade">Are you going to come after grade 9 or 11?</label>
+                <select id="grade" name="grade" required>
+                    <option value="9">After Grade 9</option>
+                    <option value="11">After Grade 11</option>
+                </select>
+
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
+    </main>
+<br>
+<footer>
+    <div class="footer-container">
+      <div class="footer-section logo">
+        <img src="infooter.webp"class="footer-logo">
+      </div>
+      <div class="footer-section">
+        <h3>For People</h3>
+        <ul>
+          <li><a href="requestinfo.html">Request Info</a></li>
+          <li><a href="apply.html">Apply</a></li>
+          <li><a href="index.html">Main Page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2000–2024 EDUroute s.r.o.</p>
+      <p><a href="#">We use cookies, see terms of use</a> | <a href="#">Privacy Policy</a> | <a href="#">Cookie Settings</a></p>
+      <p><a href="#">VysokeSkoly.cz</a> | <a href="#">VysokeSkoly.sk</a> | <a href="#">Legentas.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>
